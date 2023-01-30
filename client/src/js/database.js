@@ -35,7 +35,7 @@ const pullRequest = pullStore.getAll()
 
 const result = await pullRequest;
 
-console.log("Database has saved this Information!", result);
+console.log("Database has been pulled from Database!", result);
 }
 
 initdb();
